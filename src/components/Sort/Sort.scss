@@ -1,0 +1,66 @@
+div.sort {
+  form {
+    border: 1px solid rgba(151, 151, 151, 0.496575);
+    border-radius: 22.5px;
+    padding-left: 30px;
+    height: 50px;
+    select {
+      border: 0;
+      font-weight: 500;
+      font-size: 15px;
+      &:nth-child(2) {
+        padding: 0;
+      }
+    }
+    input {
+      border: 0;
+      border-left: 1px solid rgba(151, 151, 151, 0.496575);
+      border-right: 1px solid rgba(151, 151, 151, 0.496575);
+      padding-inline: 10px;
+      width: 40%;
+      &::placeholder {
+        color: black;
+        font-weight: 500;
+        font-size: 15px;
+      }
+    }
+    button {
+      background: #19d476;
+      border-radius: 22px;
+      border: 0;
+      height: 100%;
+      padding-inline: 20px;
+      color: white;
+      &::before{
+        content: "";
+        width: 0;
+      }
+    }
+  }
+  button {
+    background: #19d476;
+    border-radius: 22px;
+    border: 0;
+    height: 100%;
+    padding-block: 12px;
+    color: white;
+    position: relative;
+    &:hover{
+      opacity: 0.75;
+    }
+    &::before{
+      content: "+";
+      height: 100%;
+      background-color: #11B463;
+      position: absolute;
+      left: 0;
+      font-size: 28px;
+      top: 0;
+      width: 48px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

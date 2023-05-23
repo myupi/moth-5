@@ -1,0 +1,40 @@
+#swipper {
+  .swiper-slide {
+    img {
+      background-color: #b6cafb;
+      padding: 20px;
+      width: 75px;
+      height: 75px;
+      border-radius: 20px;
+    }
+    &:nth-child(2n) {
+      img {
+        background-color: #b4e2e1;
+      }
+    }
+    &:nth-child(3n) {
+      img {
+        background-color: #ff9e83;
+      }
+    }
+    &:nth-child(4n) {
+      img {
+        background-color: #f7e233;
+      }
+    }
+    &:nth-child(5n) {
+      img {
+        background-color: #f6dac2;
+      }
+    }
+    p {
+      text-align: center;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      color: #4a4a4a;
+    }
+  }
+}

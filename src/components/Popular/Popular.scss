@@ -1,0 +1,64 @@
+section#Popular {
+  .box {
+    width: 360px;
+    height: 240px;
+    position: relative;
+    background-color: red;
+    overflow: hidden;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 10px;
+    h3 {
+      width: 200px;
+      font-size: 23px;
+      z-index: 10;
+    }
+    img {
+      object-fit: contain;
+      position: absolute;
+      right: 0;
+      z-index: 1;
+    }
+    &:nth-child(1) {
+      background: rgb(180, 226, 225);
+      background: linear-gradient(
+        120deg,
+        rgba(180, 226, 225, 1) 65%,
+        rgba(255, 158, 131, 1) 50%
+      );
+      img {
+        width: 300px;
+        height: 175px;
+        right: -38px;
+        top: 30px;
+      }
+    }
+    &:nth-child(2) {
+      background: #F6DAC2;
+      background: linear-gradient(
+        120deg,
+        #F6DAC2 65%,
+        #B6CAFB 50%
+      );
+      img {
+        width: 300px;
+        height: 175px;
+        top: 0;
+        right: -20px;
+      }
+    }
+    &:nth-child(3) {
+      background: #F7E233;
+      background: linear-gradient(
+        120deg,
+        #F7E233 65%,
+        #05F3B3 50%
+      );
+      img {
+        width: 300px;
+        height: 175px;
+        right: -60px;
+      }
+    }
+  }
+}

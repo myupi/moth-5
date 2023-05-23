@@ -1,0 +1,103 @@
+.profileName {
+  padding: 8px 0;
+  border-bottom: 1px solid #979797;
+  display: flex;
+  justify-content: space-between;
+  h5 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #414d6a;
+  }
+  .profileName-button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    button {
+      background: #ffffff;
+      border: 1px solid #41d481;
+      border-radius: 100px 5px 5px 100px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      svg {
+        font-size: 25px;
+        color: #41d481;
+      }
+    }
+  }
+}
+table {
+  width: 100%;
+  tbody {
+    padding: 15px;
+    tr {
+      background-color: #ffffff;
+      border-bottom: 1px solid rgba(151, 151, 151, 0.246886);
+      td,
+      th {
+        padding: 17px 15px;
+      }
+      td,
+      span {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        color: #414d6a;
+      }
+      th {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+      }
+    }
+    button {
+      background: #ffffff;
+      border-radius: 100px 5px 5px 100px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+    }
+    button:first-child {
+      padding-left: 2px;
+      border: 1px solid #41d481;
+      svg {
+        font-size: 22px;
+        color: #41d481;
+      }
+    }
+    button:nth-child(2) {
+      margin: 0 22px;
+      padding-left: 2px;
+      border: 1px solid #304fff;
+      svg {
+        font-size: 22px;
+        color: #304fff;
+      }
+    }
+    button:last-child {
+      padding: 2px 3px;
+      border: none;
+      background: #ffffff;
+      border-radius: 50%;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.196643);
+    }
+  }
+}

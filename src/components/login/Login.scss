@@ -1,0 +1,107 @@
+.loginPage {
+  padding-bottom: 92px;
+  display: flex;
+  gap: 90px;
+  align-items: center;
+}
+
+.loginRight {
+  width: 60%;
+}
+
+.loginLeft {
+  width: 40%;
+  &_form {
+    &-head {
+      h2 {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+      }
+    }
+    .form {
+      padding-bottom: 55px;
+      label {
+        padding: 25px 0 8px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        color: #787993;
+      }
+      input[type="text"] {
+        padding: 20px 25px;
+        background: #ffffff;
+        border: 1px solid rgba(151, 151, 151, 0.482592);
+        border-radius: 5px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 22px;
+        color: black;
+        &:focus {
+          outline: none;
+        }
+      }
+      button {
+        margin-top: 30px;
+        padding: 21px 0;
+        border: none;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        color: #ffffff;
+        background: #41d481;
+        border-radius: 5px;
+      }
+    }
+    .loginRecover {
+      &-or {
+        position: relative;
+        border: 1px solid #979797;
+        height: 1px;
+        p {
+          padding: 7px 12px;
+          position: absolute;
+          top: -20px;
+          left: 47%;
+          z-index: 1;
+          background-color: #fff;
+        }
+      }
+      a {
+        padding-top: 17px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #4e72ca;
+      }
+    }
+  }
+}
+
+.loginRight {
+  position: relative;
+  background-image: url(../../assets/images/loginPag-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  &-how {
+    position: absolute;
+    left: 60px;
+    bottom: 15%;
+  }
+}

@@ -1,0 +1,53 @@
+.names {
+  p {
+    padding: 2px 12px;
+    font-weight: 700;
+    font-size: 13px;
+    background: #d8d8d8;
+    border-radius: 3px;
+    color: #787993;
+    &:nth-child(1) {
+      background-color: #e5e3ff;
+      color: #704fff;
+    }
+    &:nth-child(2) {
+      background-color: #e4f6ff;
+      color: #57b4e2;
+    }
+    &:nth-child(3) {
+      background-color: #d2ffdb;
+      color: #47b95e;
+    }
+    &:nth-child(4) {
+      background-color: #f6dac2;
+      color: #874c1a;
+    }
+  }
+}
+
+.selection {
+  select {
+    background-color: inherit;
+    border: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #414d6a;
+  }
+  button {
+    background: #304fff;
+    border-radius: 22px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    padding: 14px 30px;
+    color: #ffffff;
+    border: 0;
+    &:hover{
+      opacity: 0.75;
+    }
+  }
+}

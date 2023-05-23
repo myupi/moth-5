@@ -1,0 +1,210 @@
+span {
+  font-family: "Roboto";
+  font-style: normal;
+  line-height: 16px;
+  letter-spacing: -5.89154e-5px;
+  text-decoration-line: underline;
+  color: #4e72ca;
+}
+p {
+  margin: 0;
+}
+
+.productRight {
+  width: 50%;
+  &-top {
+    p {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: -5.89155e-5px;
+      color: #414d6a;
+    }
+  }
+  &_payment {
+    &-price {
+      h3 {
+        margin: 18px 0 10px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        letter-spacing: -0.00016833px;
+        color: #444444;
+      }
+      span {
+        font-weight: 600;
+        font-size: 14px;
+      }
+    }
+    &-card {
+      background: #65e99f;
+      border-radius: 18.5px;
+      h6 {
+        padding: 10px 7px 0 22px;
+      }
+      h6,
+      sub {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -6.73319e-5px;
+        color: #000000;
+      }
+      button {
+        border: none;
+        padding: 10px 22px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+        background: #41d481;
+        transition: 0.3s;
+        &:hover {
+          background: rgb(65, 212, 129, 0.8);
+        }
+        border-radius: 18.5px;
+      }
+    }
+    &-cards {
+      padding: 15px 0;
+      width: 340px;
+    }
+    &-author {
+      p {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: -3.17237e-5px;
+        color: #000000;
+      }
+      h6 {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: -4.13787e-5px;
+        text-decoration-line: underline;
+        color: #2aae63;
+      }
+    }
+    &-contact {
+      button {
+        padding: 15px 30px;
+        border: none;
+        border-radius: 23.5px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: -5.89155e-5px;
+        color: #ffffff;
+        transition: 0.2s linear;
+      }
+      button:first-child {
+        background: #304fff;
+        &:hover {
+          background: rgb(48, 79, 255, 0.8);
+        }
+      }
+      button:last-child {
+        background: #4e72ca;
+        &:hover {
+          background: rgb(78, 114, 202, 0.8);
+        }
+      }
+    }
+  }
+  &-table {
+    padding: 25px 0 10px;
+    table {
+      tr:first-child {
+        td {
+          border-top: none;
+        }
+      }
+      tr:last-child {
+        td {
+          border-bottom: none;
+        }
+      }
+      td:last-child {
+        border-right: none;
+      }
+      td {
+        padding: 15px 15px 25px 15px;
+        border: 1px solid rgba(151, 151, 151, 0.250226);
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: -0.00016833px;
+        color: #444444;
+        .table-text {
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 21px;
+          letter-spacing: -0.00016833px;
+          color: #444444;
+        }
+        .table-txt {
+          max-width: 536px;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 21px;
+          letter-spacing: -0.00016833px;
+          text-decoration-line: underline;
+          color: #4e72ca;
+        }
+      }
+    }
+  }
+  &_content {
+    padding-bottom: 100px;
+    &-text {
+      padding-bottom: 20px;
+      p {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 25px;
+        letter-spacing: -3.85217e-5px;
+        color: #414d6a;
+      }
+    }
+    &-views {
+      h6 {
+        color: #000000;
+      }
+      h6,
+      p {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: -5.89155e-5px;
+      }
+      p {
+        color: #d0021b;
+      }
+    }
+  }
+}
